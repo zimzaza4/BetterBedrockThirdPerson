@@ -1,0 +1,10 @@
+name: BetterBedrockThirdPerson
+version: '${project.version}'
+main: me.zimzaza4.betterbedrockthirdperson.BetterBedrockThirdPerson
+api-version: '1.19'
+depend:
+  - GeyserUtils
+  - floodgate
+commands:
+  tr:
+    permission: betterbedrockthirdperson.use
